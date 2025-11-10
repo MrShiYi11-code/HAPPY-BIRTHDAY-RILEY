@@ -114,19 +114,19 @@
         <h1 class="title">🌸 Happy Birthday 🎂</h1>
 
         <!-- ====== 5 张照片 + 文案 ====== -->
-        <div class="photo-box">< img src="R1.jpg" alt=""></div>
+        <div class="photo-box"><img src="R1.jpg" alt=""></div>
         <p class="caption">R1 - Studying is certainly important, but don't forget to pause and relax once in a while.</p >
 
-        <div class="photo-box">< img src="R2.jpg" alt=""></div>
+        <div class="photo-box"><img src="R2.jpg" alt=""></div>
         <p class="caption">R2 - I hope you can always maintain a positive and optimistic attitude.</p >
 
-        <div class="photo-box">< img src="R3.jpg" alt=""></div>
+        <div class="photo-box"><img src="R3.jpg" alt=""></div>
         <p class="caption">R3 - As I always say, no matter what happens, I will stand by your side and be your most loyal supporter.</p >
 
-        <div class="photo-box">< img src="R4.jpg" alt=""></div>
+        <div class="photo-box"><img src="R4.jpg" alt=""></div>
         <p class="caption">R4 - Thank you for shining on everyone around you like a little sun.</p >
 
-        <div class="photo-box">< img src="R5.jpg" alt=""></div>
+        <div class="photo-box"><img src="R5.jpg" alt=""></div>
         <p class="caption">R5 - No matter what happens, we will stand by your side.</p >
 
         <!-- 按钮：展开祝福信 -->
