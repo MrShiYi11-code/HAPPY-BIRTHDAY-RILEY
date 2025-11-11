@@ -4,14 +4,14 @@
     <!-- 基础适配 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <title>粉色生日信</title>
+    <title>Pink Birthday Letter</title>
 
     <style>
         /* 0. 根字号自动适配 */
         html { font-size: calc(100vw / 37.5); }
         @media (min-width: 768px) { html { font-size: 16px; } }
 
-        /* 1. 粉色渐变背景 + 花朵蛋糕点缀 */
+        /* 1. 粉色渐变 + 蛋糕花朵点缀 */
         body {
             margin: 0;
             min-height: 100vh;
@@ -29,7 +29,7 @@
             display: flex; justify-content: center; align-items: center;
         }
 
-        /* 2. 通用卡片 */
+        /* 2. 卡片通用 */
         .card {
             width: 90%; max-width: 600px;
             background: rgba(255, 255, 255, 0.9);
@@ -88,7 +88,7 @@
         .letter-content { font-size: 1.1rem; line-height: 1.8; color: #333; }
         .letter-content h3 { color: #ff69b4; margin-bottom: 1rem; text-align: center; }
 
-        /* 8. 音频控制面板 */
+        /* 8. 音频控制 */
         .audio-controls { position: fixed; bottom: 1rem; right: 1rem; background: rgba(255, 255, 255, 0.85); padding: 0.6rem 1rem; border-radius: 1rem; box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.15); z-index: 1000; }
         .audio-btn { margin: 0.2rem; padding: 0.4rem 0.8rem; background: #ff69b4; color: #fff; border: none; border-radius: 1rem; font-size: 0.9rem; cursor: pointer; }
         .audio-btn:hover { background: #ff1493; }
@@ -104,7 +104,7 @@
     <!-- ========== 1. 首页 ========== -->
     <div class="card" id="homePage">
         <h1 class="title">🎂 Happy Birthday 🌸</h1>
-        <p style="color:#666;">愿你被鲜花与甜蜜团团围住～</p >
+        <p style="color:#666;">愿你被鲜花与甜蜜团团围住～</p>
         <button class="btn" onclick="startSlide()">开启回忆</button>
     </div>
 
@@ -112,28 +112,28 @@
     <div class="slideshow-container card" id="slideShow" style="display:none;">
         <!-- 幻灯片1 -->
         <div class="slide active">
-            <div class="photo-box">< img src="R1.jpg" alt=""></div>
-            <p class="caption">R1- Studying is certainly important, but don't forget to pause and relax once in a while.</p >
+            <div class="photo-box"><img src="R1.jpg" alt=""></div>
+            <p class="caption">R1- Studying is certainly important, but don't forget to pause and relax once in a while.</p>
         </div>
         <!-- 幻灯片2 -->
         <div class="slide">
-            <div class="photo-box">< img src="R2.jpg" alt=""></div>
-            <p class="caption">R2- I hope you can always maintain a positive and optimistic attitude.</p >
+            <div class="photo-box"><img src="R2.jpg" alt=""></div>
+            <p class="caption">R2- I hope you can always maintain a positive and optimistic attitude.</p>
         </div>
         <!-- 幻灯片3 -->
         <div class="slide">
-            <div class="photo-box">< img src="R3.jpg" alt=""></div>
-            <p class="caption">R3- As I always say, no matter what happens, I will stand by your side and be your most loyal supporter.</p >
+            <div class="photo-box"><img src="R3.jpg" alt=""></div>
+            <p class="caption">R3- As I always say, no matter what happens, I will stand by your side and be your most loyal supporter.</p>
         </div>
         <!-- 幻灯片4 -->
         <div class="slide">
-            <div class="photo-box">< img src="R4.jpg" alt=""></div>
-            <p class="caption">R4- Thank you for shining on everyone around you like a little sun.</p >
+            <div class="photo-box"><img src="R4.jpg" alt=""></div>
+            <p class="caption">R4- Thank you for shining on everyone around you like a little sun.</p>
         </div>
         <!-- 幻灯片5 -->
         <div class="slide">
-            <div class="photo-box">< img src="R5.jpg" alt=""></div>
-            <p class="caption">R5- No matter what happens, we will stand by your side.</p >
+            <div class="photo-box"><img src="R5.jpg" alt=""></div>
+            <p class="caption">R5- No matter what happens, we will stand by your side.</p>
         </div>
 
         <!-- 幻灯片导航 -->
@@ -141,20 +141,20 @@
             <button class="btn" onclick="changeSlide(-1)">⬅ 上一张</button>
             <button class="btn" onclick="changeSlide(1)">下一张 ➡</button>
             <button class="btn" onclick="showLetter()">💌 读信</button>
-    </div>   <!-- 幻灯片导航结束 -->
-    </div>       <!-- 幻灯片容器结束 -->
+        </div>
+    </div>
 
     <!-- ========== 3. 生日信 ========== -->
     <div class="letter-page card" id="letterPage" style="display:none;">
         <h3>🌸 To My Dearest You 🌸</h3>
         <div class="letter-content">
-            <p>Meeting you is truly the luckiest thing I’ve ever felt. Today, I want to take this chance to tell you a few things tucked deep in my heart. To me, you are an extraordinary person—bright, sunny, lovely, and beautiful. Please stop thinking that you're “not enough,” and stop sighing at yourself day after day.</p >
+            <p>Meeting you is truly the luckiest thing I’ve ever felt. Today, I want to take this chance to tell you a few things tucked deep in my heart. To me, you are an extraordinary person—bright, sunny, lovely, and beautiful. Please stop thinking that you're “not enough,” and stop sighing at yourself day after day.</p>
 
-            <p>I hope the days ahead keep you shining in your own unique way: doing what you love, loving those who deserve you. May every furrow of your brow come only from wondering how to embrace the world more warmly; may every tear you shed be born of happiness too big to hold inside. However far the future stretches, I wish you to be met with gentleness—and to learn to cradle yourself just as gently. Remember: you deserve every beauty this life can offer, and you deserve to be chosen—firmly, unshakably.</p >
+            <p>I hope the days ahead keep you shining in your own unique way: doing what you love, loving those who deserve you. May every furrow of your brow come only from wondering how to embrace the world more warmly; may every tear you shed be born of happiness too big to hold inside. However far the future stretches, I wish you to be met with gentleness—and to learn to cradle yourself just as gently. Remember: you deserve every beauty this life can offer, and you deserve to be chosen—firmly, unshakably.</p>
 
-            <p>Finally, happy birthday. In this new year of your life, we’re still right here beside you.</p >
+            <p>Finally, happy birthday. In this new year of your life, we’re still right here beside you.</p>
 
-            <p style="text-align:right;">— Your Loyal Friend 💕</p >
+            <p style="text-align:right;">— Your Loyal Friend 💕</p>
         </div>
         <button class="btn" onclick="backToSlide()" style="margin-top:1.5rem;">返回相册</button>
     </div>
